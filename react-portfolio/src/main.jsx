@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+
 
 import { createHashBrowserRouter, RouterProvider } from 'react-router-dom';
 
