@@ -12,7 +12,7 @@
 
 ## Description
 
-- 
+- Creating a portfolio made using ReactJS to use for future employers can get as much information about my experience and projects I've worked on.
 
 ## Installation
 
@@ -22,7 +22,7 @@
 
 - The link to the application is provided below
 
-
+![]()
 ## Contributions
 
 ## Tests
