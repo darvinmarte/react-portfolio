@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
 
-import { createHashBrowserRouter, RouterProvider } from 'react-router-dom';
+import {createHashRouter, RouterProvider } from 'react-router-dom';
 
 
 import Home from './pages/Home';
@@ -12,7 +12,7 @@ import Error from './pages/Error';
 import Contact from './pages/Contact';
 
 
-const router = createHashBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
