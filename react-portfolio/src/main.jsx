@@ -7,9 +7,9 @@ import { createHashBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Blog';
+import Projects from './pages/Projects';
 import Error from './pages/Error';
-
+import Contact from './pages/Contact';
 
 
 const router = createHashBrowserRouter([
@@ -30,6 +30,10 @@ const router = createHashBrowserRouter([
         path: '/Projects',
         element: <Projects />,
       },
+      {
+        path: '/Contact',
+        element: <Contact />,
+      }
     ],
   },
 ]);
