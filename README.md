@@ -21,6 +21,7 @@
 ## Usage
 
 - The link to the application is provided below
+https://darvinmarte.github.io/react-portfolio/ 
 
 ![]()
 ## Contributions
