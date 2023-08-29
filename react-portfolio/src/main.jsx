@@ -7,12 +7,15 @@ import { createHashBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Error from './pages/Error';
+
 
 
 const router = createHashBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
