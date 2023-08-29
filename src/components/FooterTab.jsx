@@ -4,9 +4,9 @@ function Footer() {
     const currentPage = useLocation().pathname;
 
     return (
-        <Link >
-            <h1> Footer Example</h1>
-            className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+        <Link className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+            <h1> Footer </h1>
+
         </Link>
     );
 }

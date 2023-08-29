@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+
+.plane{
+  height: 50px;
+  width: 50px; 
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
