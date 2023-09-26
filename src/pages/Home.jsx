@@ -1,5 +1,6 @@
 import plane from '../assets/images/plane.png'; // Tell webpack this JS file uses this image
 
+
 export default function Home() {
     return (
       <div>
